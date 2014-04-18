@@ -19,8 +19,8 @@ oauth_consumer_sec = 'oauth_consumer_sec'
 ####################
 
 
-url_followers = "https://api.twitter.com/1/followers/ids.json?cursor=-1&screen_name=" + twitter_user
-url_lookups = "https://api.twitter.com/1/users/lookup.json?user_id=%USER_IDS%&include_entities=true"
+url_followers = "https://api.twitter.com/1.1/followers/ids.json?cursor=-1&screen_name=" + twitter_user
+url_lookups = "https://api.twitter.com/1.1/users/lookup.json?user_id=%USER_IDS%&include_entities=true"
 #test = "https://graph.facebook.com/19292868552"
 
 def main():
